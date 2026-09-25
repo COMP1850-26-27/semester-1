@@ -1,0 +1,18 @@
+This file contains 2 example interactions with a working version of the program.
+
+Example 1 - a successful use
+
+What is your name? Amy
+Welcome to LeedsBank's savings calculator Amy!
+Enter your monthly savings amount: 100
+You will save £1200 every year.
+With interest, you will save £1209.60 per year.
+
+Example 2 - an invalid use
+
+What is your name? Amy
+Welcome to LeedsBank's savings calculator Amy!
+Enter your monthly savings amount: twenty pounds
+Invalid amount
+
+Note that you don't need to use the exact state prints as I do - only the amount is marked.
