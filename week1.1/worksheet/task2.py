@@ -16,7 +16,7 @@ except ValueError: print("Invalid amount")
 # print this out for the user with a suitable message.
 
 total_saved = every_month * 12
-print("total_saved")
+print(total_saved)
 
 # Calculate the total amount of money including interest (0.8% of the final annual amount) they will have saved in a year.
 # print this out in the format £X.XX (to two decimal places).
