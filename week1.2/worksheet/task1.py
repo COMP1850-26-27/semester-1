@@ -5,10 +5,11 @@ import sys
 try:
     grade = int(input())
 except ValueError:
-    print("Error: Grade must be an integer between 0 and 100")
+    print("Error: Grade must be an integer between 0 and 100", file=sys.stderr)
     sys.exit(1)
+
 if grade < 0 or grade > 100:
-    print("Error: Grade must be an integer between 0 and 100")
+    print("Error: Grade must be an integer between 0 and 100", file=sys.stderr)
     sys.exit(1)
     
 if 0 <= grade <= 39:
