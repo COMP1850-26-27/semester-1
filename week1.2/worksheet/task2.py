@@ -6,7 +6,7 @@ from util import read_numbers
 numbers = read_numbers()
 
 if len(numbers) == 0:
-    print("Error: no numbers provided", File=sys.stderr)
+    print("Error: no numbers provided", file=sys.stderr)
     sys.exit(1)
 
 Minimum = min(numbers)
@@ -21,7 +21,8 @@ length = len(numbers)
 if length % 2 == 1:
     Median = numbers[length // 2]
 else:
-    Median = (numbers[length // 2 - 1] + numbers[length // 2])/ 2
+    Median =(numbers[length // 2 - 1] + numbers[length // 2])/2
+
 print(f"Median = {Median}")
 
 
