@@ -4,13 +4,13 @@
 
 # Ask a user to enter two numbers (one per input)
 
-num1 = input()
+num3 = input()
 num2 = input()
 
 # multiply those numbers together
 
 try:
-    num1 =int(num1)
+    num3 =int(num3)
     num2 =int(num2)
 except ValueError:
     print("That is not a number")
@@ -18,7 +18,7 @@ except ValueError:
 
 # print out the result
 
-result = num1 * num2
+result = num3 * num2
 print(result)
 
 # There is an extra point available for validating that they entered numbers!
