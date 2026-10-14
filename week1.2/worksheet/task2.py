@@ -21,7 +21,7 @@ length = len(numbers)
 if length % 2 == 1:
     Median = numbers[length // 2]
 else:
-    Median = (numbers[length // 2 - 1] + [length // 2])/ 2
+    Median = (numbers[length // 2 - 1] + numbers[length // 2])/ 2
 print(f"Median = {Median}")
 
 
