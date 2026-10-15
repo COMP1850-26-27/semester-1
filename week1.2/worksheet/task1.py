@@ -2,7 +2,7 @@
 import sys
 grade = input("Enter grade: ")
 
-if grade.isdecimal() == False:
+if not grade.isdecimal():
     sys.exit("Error: Grade must be an integer between 0 and 100")
 grade = int(grade)
 
