@@ -4,7 +4,6 @@
 # (i.e., POST /login with the response 401) in a log file and print these out in a
 # human-readable format.
 
-
 # open and read the file
 
 # find all failed login attempts (POST /login with the response 401)
