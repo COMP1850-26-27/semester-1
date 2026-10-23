@@ -4,9 +4,22 @@
 
 # Ask a user to enter two numbers (one per input)
 
+num3 = input()
+num2 = input()
+
 # multiply those numbers together
 
+try:
+    num3 =int(num3)
+    num2 =int(num2)
+except ValueError:
+    print("That is not a number")
+
+
 # print out the result
+
+result = num3 * num2
+print(result)
 
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints

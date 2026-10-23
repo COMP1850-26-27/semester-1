@@ -9,6 +9,8 @@
 #   - the widget which has been sold the most
 # and print these out in a nice, human-readable format
 
+with open("path/to/sales_data.py","w") as outfiles:
+    outfile.write("Some literal text\n")
 
 # additional: you can calculate other sales statistics such as:
 # - total sales for each region
