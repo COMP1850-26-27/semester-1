@@ -3,8 +3,16 @@
 # Your code for the overall grade classification
 
 # ask for filename of the student file
-
+eachStudent = input("Enter number of users: ")
+fileName = input("Enter file name: ")
 # open the file
+grade = 0
+
+#
+for x in eachStudent:
+    with open("fileName.txt") as f:
+        oneGrade = (fileName.readline())
+    grade += oneGrade
 
 # read in the data, and for each student calculate their average grade and classification
 
