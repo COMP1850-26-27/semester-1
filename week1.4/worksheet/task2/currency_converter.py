@@ -19,9 +19,14 @@ def currency_converter(amount, from_currency, to_currency):
     }
 
     # your code here
+    rate = conversion_rate[from_currency][ to_currency]
+    print(rate)
+    #print((amount * rate).2f)
+    new = amount * rate
+    print(round(new, 2))
 
     return None
 
 # Submit only this file currency_converter.py with the completed function.
-
+currency_converter(amount = 786, from_currency = "CNY", to_currency = "GBP")
 # Remove any additional code you may have added during development and testing.
